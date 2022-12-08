@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+  web:
+    image: traggo/server:latest
+    container_name: traggo
+    restart: always
+    ports:
+      - 3030:3030
+    networks:
+      - default
+    volumes:
+      - ./traggodata:/opt/traggo/data
+    environment:
+      TRAGGO_DEFAULT_USER_NAME: "admin"
+      TRAGGO_DEFAULT_USER_PASS: "admin"
+
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
