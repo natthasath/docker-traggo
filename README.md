@@ -1,6 +1,6 @@
 # 🎉 Docker Traggo
 
-Traggo is a tag-based time tracking tool. In Traggo there are no tasks, only tagged time spans.
+Traggo is an open-source time tracking and project management application that allows users to track time, manage tasks, create invoices, and generate reports.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
